@@ -17,5 +17,4 @@ LDL_col.to_csv('delete ldl cholesterol.csv')
 HDL_col = health_data_2019.dropna(subset=['HDL 콜레스테롤'])
 HDL_col.index = range(1,len(HDL_col)+1)
 HDL_col.to_csv('delete hdl cholesterol.csv')
-print(len(HDL_col))
 
